@@ -84,6 +84,9 @@ module.exports = class Visor {
                 bounds.width = this.config.width || width / 2;
                 bounds.height = this.config.height || height;
                 break;
+            case 'full':
+                // this should work fine
+                break;
         }
 
         bounds.y = Math.round(bounds.y);
